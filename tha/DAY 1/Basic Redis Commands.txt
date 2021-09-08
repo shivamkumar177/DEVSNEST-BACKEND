@@ -1,0 +1,8 @@
+SET name Rachit # for storing name
+Get name # getting name
+DEL name # delete name
+EXISTS name # to check whether key exist or not
+FLUSHALL # delete all
+ttl name # time on name
+expire name 10 # expire name 10
+setex name 10 shivam # set name for 10 seconds and then delete
