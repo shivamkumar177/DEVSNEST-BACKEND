@@ -1,0 +1,19 @@
+PS E:\STUDY 1\backend devsnest\DEVSNEST-BACKEND\DAY 5> node
+Welcome to Node.js v16.7.0.       
+Type ".help" for more information.
+> var fs= require
+undefined
+> var fs= require("fs")
+undefined
+> fs.writeFileSync("hello.txt","Hello",err=>{
+... if(err){
+..... console.log(err)
+..... }
+... });
+undefined
+> fs.appendFileSync("hello.txt"," Shivam");
+undefined
+>fs.readFileSync("hello.txt")                           ^
+<Buffer 48 65 6c 6c 6f 20 53 68 69 76 61 6d>
+> fs.readFileSync("hello.txt","utf-8")
+'Hello Shivam'
