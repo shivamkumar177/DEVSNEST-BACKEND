@@ -1,0 +1,11 @@
+API types
+Private -- Only you
+Partner -- same building
+Public-- anyone
+
+SOAP Simple Object Access Protocol
+REST Representational state Transfer Protocol
+	Create - POST
+	Read - GET
+	Update - PUT
+	Delete - DELTE
