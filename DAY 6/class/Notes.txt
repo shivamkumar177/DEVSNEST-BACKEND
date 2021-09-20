@@ -1,0 +1,4 @@
+Event loop is an algorithm which handles Async nature of Javascript.
+Javascript has call stack which works like a stack. It pushes code in stack and after it's excecution it pops it.
+It also has queue 
+when something is in queue, the event loop works and if the stack is empty it pushes the item from queue to stack for execution.
